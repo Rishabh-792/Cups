@@ -1,4 +1,4 @@
-#Adding comments and using it to print
+# Adding comments and using it to print
 
 I added some comments to the cupsFilePrintf() function, which was located in the scheduler's log.c file. Then saved the modified log.c file. Enter the make and make install commands once again:
 ```
@@ -13,7 +13,7 @@ sudo /usr/sbin/cupsd -f
 
 Then i gave the print job and checked the access.log file:
 
-#Modified Access Log
+# Modified Access Log
 ```
 localhost - - [04/Jan/2022:18:17:13 +0530] "POST /admin/ HTTP/1.1" 401 242 CUPS-Add-Modify-Printer successful-ok
 localhost - rishabh [04/Jan/2022:18:17:13 +0530] "POST /admin/ HTTP/1.1" 200 242 CUPS-Add-Modify-Printer successful-ok
