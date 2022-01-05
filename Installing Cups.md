@@ -1,4 +1,4 @@
-#Steps taken to install cups locally
+# Steps taken to install cups locally
 
 The first step is to clone the cups repository through the following command:
 ```
